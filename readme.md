@@ -1,12 +1,14 @@
 # NLP Question generation from text in python
 ## Installation
 ```
+git clone https://github.com/manisaiprasad/NLP-Question-generation-from-text.git
 pip install textblob
 nltk.download('all') 
 ``` 
 
 ## How to Run
 ```
+cd NLP-Question-generation-from-text
 python genQ.py "text from where you need to generate questions"
 ``` 
 ## Example 
