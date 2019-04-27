@@ -1,9 +1,8 @@
 from textblob import TextBlob
-# file1 = sys.argv[1]
-# print(sys.argv[1])
-file1 = open("input.txt","r+")
-print(file1)
-ww2 = file1.read()
+import sys
+
+file1 = sys.argv[1]
+ww2 = file1
 ww2b = TextBlob(ww2)
 sposs = {}
 for sentence in ww2b.sentences:
